@@ -1,0 +1,11 @@
+.env
+__pycache__
+.DS_Store
+config.ini
+domain_input.txt
+test.py
+main.py
+asocclass_3lev_unc_domain_input.json
+logs/
+domains/domain_input.txt
+examples/
