@@ -82,8 +82,8 @@ SIMULATED_EXPERT = 1
 <!-- USAGE EXAMPLES -->
 ## Paper Experiments
 
-The results of the experiments include the [reference models](experiments/reference_model/) and the [output](experiments/logs/) from the experiments.
-To run the experiments, use the [input](experiments/input/) data with the domain descriptions. Then execute the experiment:
+The results of the experiments include the [reference models](experiments/ToT-Q/reference_model/) and the [output](experiments/ToT-Q/logs/) from the experiments.
+To run the experiments, use the [input](experiments/ToT-Q/input/) data with the domain descriptions. Then execute the experiment:
    ```ssh   
    python tot_rules_q/rule_agent.py
    python chat.py
