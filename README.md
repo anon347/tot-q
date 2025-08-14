@@ -2,7 +2,7 @@
 <!-- ABOUT THE PROJECT -->
 ## Towards Human-in-the-Loop LLM-enabled Domain Modeling
 
-We propose to improve LLM-enabled domain model generation with a refinement loop to improve the creation of the model with domain expert feedback. The workflow is organized in three main phases:
+We propose to improve LLM-enabled domain model generation with a refinement loop. The workflow is organized in three main phases:
 
 1. **Initial Modeling Phase**: Start with a domain description to create a draft domain model.  
 2. **Iterative Improvement Phase**: Refine the domain model via a Q&A feedback loop.  
@@ -39,8 +39,6 @@ To configure the BESSER Agentic framework:
 
 <!-- RECOMMENDATIONS -->
 
-Configure the questions and triggering of them
-
 ### How to configure templates
 
 To configure the templates, you can modify the question variable in the following [python file](tot-q/blob/main/tot_rules_q/template_questions.py)
@@ -66,16 +64,16 @@ SIMULATED_EXPERT = 1
 
 ### Run the project
 1. Install Python 3.11 and create a virtual environment
-2. Install the required packages:
+2. Install the [required packages](requirements.txt):
    ```sh
    pip install -r requirements.txt
    ```
 3. Configure the templates and question triggers in the [.env file](tot-q/blob/main/.env_example).
-4. Run the rule-based agent (LLM agents are called by this agent):
+4. Run the rule-based agent (this agent call the LLM agents):
    ```sh
    python tot_rules_q/rule_agent.py
    ```
-5. Run the chat application
+5. Run the chat application:
    ```sh
    python chat.py
    ```
@@ -90,11 +88,3 @@ To run the experiments, use the [input](experiments/input/) data with the domain
    python tot_rules_q/rule_agent.py
    python chat.py
    ```
-
-
-
-The modeling process is 
-
-build with
-ToT DSL
-BESSER Agentic framework
