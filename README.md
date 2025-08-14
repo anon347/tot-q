@@ -68,7 +68,7 @@ SIMULATED_EXPERT = 1
    ```sh
    pip install -r requirements.txt
    ```
-3. Configure the templates and question triggers in the [.env file](tot-q/blob/main/.env_example).
+3. Configure the templates and question triggers in the [.env file](.env_example).
 4. Run the rule-based agent (this agent call the LLM agents):
    ```sh
    python tot_rules_q/rule_agent.py
