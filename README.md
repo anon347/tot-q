@@ -41,7 +41,7 @@ To configure the BESSER Agentic framework:
 
 ### How to configure templates
 
-To configure the templates, you can modify the question variable in the following [python file](blob/main/tot_rules_q/template_questions.py)
+To configure the templates, you can modify the question variable in the following [python file](tot_rules_q/template_questions.py)
 
 ### How to configure question triggers
 
